@@ -92,6 +92,10 @@ nav {
   justify-content: center;
 }
 
+.home-button:focus {
+  outline: none; /* Remove focus outline */
+}
+
 .home-icon {
   width: 30px;
   height: 30px;
