@@ -15,9 +15,11 @@ const navigateToHome = () => {
       <div class="logo-container">
         <img src="../icons/red-spider-lily.webp" alt="Red Spider Lily" class="lily" />
         <h1 class="site-title">The Lemon Garden</h1>
-        <button class="home-button" @click="navigateToHome">Home</button>
       </div>
       <nav>
+        <button class="home-button" @click="navigateToHome">
+          <img src="../icons/home-icon.png" alt="Home Icon" class="home-icon" />
+        </button>
         <router-link to="/about">About Me</router-link>
         <router-link to="/certifications">Certifications</router-link>
         <router-link to="/career">Career</router-link>
@@ -52,9 +54,10 @@ const navigateToHome = () => {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 15px 30px; /* Increased padding */
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  height: 70px; /* Increased height */
 }
 
 .logo-container {
@@ -64,40 +67,41 @@ const navigateToHome = () => {
 }
 
 .lily {
-  height: 50px;
+  height: 60px; /* Adjusted logo height */
 }
 
 .site-title {
   color: #B87333;
-  font-size: 1.5em;
+  font-size: 1.8em; /* Slightly increased font size */
   margin: 0;
-}
-
-.home-button {
-  background-color: #B87333;
-  color: #ffffff;
-  border: none;
-  border-radius: 5px;
-  padding: 5px 10px;
-  cursor: pointer;
-  font-size: 0.9em;
-  font-weight: bold;
-  transition: background-color 0.3s;
-}
-
-.home-button:hover {
-  background-color: #621708;
 }
 
 nav {
   display: flex;
-  gap: 20px;
+  align-items: center;
+  gap: 25px; /* Increased gap between links */
+}
+
+.home-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-icon {
+  width: 30px;
+  height: 30px;
 }
 
 nav a {
   text-decoration: none;
   color: #B87333;
   font-weight: bold;
+  font-size: 1.1em; /* Slightly increased font size */
 }
 
 nav a:hover {
