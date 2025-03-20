@@ -10,8 +10,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Ensure it takes full viewport height */
+  height: 100%;
   text-align: center;
-  color: #000000; /* Black text color */
+  color: #000000;
+  margin: auto;
+  padding: 0;
 }
 </style>
+
+// i think this page useless

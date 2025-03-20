@@ -1,10 +1,8 @@
 <template>
   <div class="centered-content">
     <h1>Certifications</h1>
-    <p>Explore the certifications I've earned.</p>
-    <p>
-      These certifications demonstrate my commitment to learning and my expertise in various fields.
-    </p>
+    <!-- <p>Explore the certifications I've earned.</p> -->
+    <p>WIP</p>
   </div>
 </template>
 
@@ -14,8 +12,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Ensure it takes full viewport height */
+  height: 100%;
   text-align: center;
-  color: #000000; /* Black text color */
+  color: #000000;
+  margin: auto;
 }
 </style>

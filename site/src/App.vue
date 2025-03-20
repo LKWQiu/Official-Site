@@ -20,8 +20,8 @@ const navigateToHome = () => {
       <nav>
         <router-link to="/about">About Me</router-link>
         <router-link to="/certifications">Certifications</router-link>
-        <router-link to="/extracurriculars">Extracurriculars</router-link>
         <router-link to="/career">Career</router-link>
+        <router-link to="/extracurriculars">Extracurriculars</router-link>
       </nav>
     </header>
     <main class="content">
@@ -42,13 +42,13 @@ const navigateToHome = () => {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  background-color: #ffffff; /* Set the main background color to white */
+  background-color: #ffffff;
 }
 
 .navbar {
   position: sticky;
   top: 0;
-  background-color: #220901; /* Brown color for the navigation bar */
+  background-color: #220901;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -68,14 +68,14 @@ const navigateToHome = () => {
 }
 
 .site-title {
-  color: #B87333; /* Title color */
+  color: #B87333;
   font-size: 1.5em;
   margin: 0;
 }
 
 .home-button {
-  background-color: #B87333; /* Button background color */
-  color: #ffffff; /* Button text color */
+  background-color: #B87333;
+  color: #ffffff;
   border: none;
   border-radius: 5px;
   padding: 5px 10px;
@@ -86,7 +86,7 @@ const navigateToHome = () => {
 }
 
 .home-button:hover {
-  background-color: #621708; /* Hover background color */
+  background-color: #621708;
 }
 
 nav {
@@ -96,12 +96,12 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #B87333; /* Link color */
+  color: #B87333;
   font-weight: bold;
 }
 
 nav a:hover {
-  color: #621708; /* Hover color */
+  color: #621708;
 }
 
 .content {
@@ -112,12 +112,12 @@ nav a:hover {
 }
 
 .welcome-box {
-  width: 300px;
-  height: 200px; /* Fixed height to ensure consistency */
-  padding: 15px;
-  border: 2px solid #B87333; /* Border color */
-  background-color: #220901; /* Background color */
-  color: #B87333; /* Text color */
+  width: 400px;
+  height: 200px;
+  padding: 20px;
+  border: 2px solid #B87333;
+  background-color: #220901;
+  color: #B87333;
   margin-right: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
@@ -126,8 +126,8 @@ nav a:hover {
 router-view {
   flex-grow: 1;
   padding: 20px;
-  background-color: #ffffff; /* Ensure router content background is white */
-  color: #220901; /* Text color for content area */
+  background-color: #ffffff;
+  color: #220901;
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }

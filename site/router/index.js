@@ -2,8 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router';
 import ProjectsPage from '../src/views/ProjectsPage.vue';
 import AboutPage from '../src/views/AboutPage.vue';
 import CertificationsPage from '../src/views/CertificationsPage.vue';
-import ExtracurricularsPage from '../src/views/ExtracurricularsPage.vue';
 import CareerPage from '../src/views/CareerPage.vue';
+import ExtracurricularsPage from '../src/views/ExtracurricularsPage.vue';
 
 const routes = [
   {
@@ -22,14 +22,14 @@ const routes = [
     component: CertificationsPage,
   },
   {
-    path: '/extracurriculars',
-    name: 'Extracurriculars',
-    component: ExtracurricularsPage,
-  },
-  {
     path: '/career',
     name: 'Career',
     component: CareerPage,
+  },
+  {
+    path: '/extracurriculars',
+    name: 'Extracurriculars',
+    component: ExtracurricularsPage,
   },
 ];
 
