@@ -54,10 +54,10 @@ const navigateToHome = () => {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 30px; /* Increased padding */
+  padding: 15px 30px;
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-  height: 70px; /* Increased height */
+  height: 70px;
 }
 
 .logo-container {
@@ -67,19 +67,19 @@ const navigateToHome = () => {
 }
 
 .lily {
-  height: 60px; /* Adjusted logo height */
+  height: 60px;
 }
 
 .site-title {
   color: #B87333;
-  font-size: 1.8em; /* Slightly increased font size */
+  font-size: 1.8em;
   margin: 0;
 }
 
 nav {
   display: flex;
   align-items: center;
-  gap: 25px; /* Increased gap between links */
+  gap: 25px;
 }
 
 .home-button {
@@ -93,7 +93,7 @@ nav {
 }
 
 .home-button:focus {
-  outline: none; /* Remove focus outline */
+  outline: none;
 }
 
 .home-icon {
@@ -105,7 +105,7 @@ nav a {
   text-decoration: none;
   color: #B87333;
   font-weight: bold;
-  font-size: 1.1em; /* Slightly increased font size */
+  font-size: 1.1em;
 }
 
 nav a:hover {
@@ -115,7 +115,7 @@ nav a:hover {
 .content {
   display: flex;
   flex-grow: 1;
-  padding: 20px;
+  padding: 90px 20px 20px;
   overflow-y: auto;
 }
 
